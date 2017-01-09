@@ -11,6 +11,7 @@ bin-release/
 *.out
 .idea/
 *.iml
+*.DS_Store
 
 # Executables
 *.swf
