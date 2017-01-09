@@ -10,6 +10,7 @@ bin-release/
 *.o
 *.out
 .idea/
+*.iml
 
 # Executables
 *.swf
