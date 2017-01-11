@@ -12,7 +12,7 @@ bin-release/
 .idea/
 *.iml
 *.DS_Store
-
+*.class
 # Executables
 *.swf
 *.air
