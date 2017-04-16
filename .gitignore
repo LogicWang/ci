@@ -11,6 +11,7 @@ bin-release/
 *.out
 .idea/
 target/
+project/
 *.iml
 *.DS_Store
 *.class
