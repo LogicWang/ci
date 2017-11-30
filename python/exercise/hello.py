@@ -1,3 +1,5 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
+# -*- coding:utf8 -*-
 
-print "hello, world"
+
+print("hello, world")

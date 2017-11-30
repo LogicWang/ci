@@ -1,2 +1,2 @@
-this project include python exercises
-it follow python guideline
+This project include python exercises
+It follows python's guideline
