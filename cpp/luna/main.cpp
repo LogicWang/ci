@@ -1,43 +1,32 @@
 #include <iostream>
-#include<cmath>
-#include<cstring>
-
+#include <cmath>
+#include "search.h"
+#include "myquicksort.h"
 //
 // Created by page on 14/12/2016.
 //
 
-
 using namespace std;
-int sieve()
-{
-    const int n = 100;
-    bool a[101];
-    int i, j;
-
-    memset(a, 1, sizeof(a));
-    a[1] = 0;
-    for(i = 2; i <= sqrt(n); i ++)
-    {
-        if(a[i])
-        {
-            for(j = 2; j <= n/i; j ++)
-            {
-                a[i*j] = 0;
-            }
-        }
-    }
-    for(i = 2; i <= n; i ++)
-    {
-        if(a[i]) cout << i << " ";
-    }
-    return 0;
-
-}
 
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
-    sieve();
+    //sieve();
+    char* flab[] = {
+            "actually",
+            "just",
+            "quiet",
+            "really",
+            NULL
+    };
+    char *w;
+    int st[] = {1,9,4,6,3,8};
+    myquicksort(st,6);
+
+    w = "quiet";
+    //int ret  = lookup2(w, flab,4);
+    for(int i = 0; i < 6; i++)
+        std::cout << st[i] << std::endl;
     return 0;
 }
 
