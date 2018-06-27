@@ -15,6 +15,7 @@ project/
 *.iml
 *.DS_Store
 *.class
+*.iml
 
 # Executables
 *.swf
