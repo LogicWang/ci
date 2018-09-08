@@ -1,2 +1,2 @@
 ###############################################################################
-data structure and algorithm implements  by c
+stack.c is a stack implement by c, include push,pop... functions

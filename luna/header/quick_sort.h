@@ -5,7 +5,7 @@
 #ifndef LUNA_QUICK_SORT_H
 #define LUNA_QUICK_SORT_H
 
-void myquicksort(int v[], int n);
+void my_quick_sort(int v[], int n);
 
 class quick_sort {
 

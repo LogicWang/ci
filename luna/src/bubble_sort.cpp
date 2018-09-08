@@ -3,3 +3,11 @@
 //
 
 #include "../header/bubble_sort.h"
+
+
+int bubble_sort()
+{
+
+    return 0;
+}
+

@@ -25,7 +25,7 @@ int main() {
     //int ret  = lookup2(w, flab,4);
 
     int st[] = {1,9,4,6,3,8};
-    myquicksort(st,6);
+    my_quick_sort(st,6);
     for(int i = 0; i < 6; i++)
         std::cout << st[i] << std::endl;
     return 0;

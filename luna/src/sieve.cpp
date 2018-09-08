@@ -3,8 +3,10 @@
 //
 
 #include "../header/sieve.h"
+#include <cmath>
+#include <iostream>
 
-
+using namespace std;
 int sieve()
 {
     const int n = 100;

@@ -5,6 +5,7 @@
 #ifndef LUNA_BUBBLE_SORT_H
 #define LUNA_BUBBLE_SORT_H
 
+int bubble_sort();
 
 class bubble_sort {
 
